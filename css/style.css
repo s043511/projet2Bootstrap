@@ -1,0 +1,81 @@
+/*------------------ style commun à toutes les pages ------------------------------*/
+
+body 
+{
+    font-family: 'Bitter', serif;
+    background-color: whitesmoke;
+    color: orange;
+    padding-top: 90px;
+}
+
+header
+{
+    padding-right: 65px;
+}
+
+footer
+{
+    background-color: black;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 30px;        
+}
+
+.container
+{
+    background-color: white ;
+    padding-right: 30px;
+    padding-left: 35px;
+}
+
+h2
+{
+    font-size: 1.4em; 
+}
+
+h3
+{
+    font-size: 1.3em;
+}
+
+
+.navbar {
+    min-height : 60px ;
+    font-size:1.2em;
+}
+
+
+.navbar-inverse .navbar-brand {
+    background-color:  orange;
+    font-size:1.5em;    
+    min-height : 60px ;
+    color: white;
+} 
+
+/*---------------------- media queries----------------------------------- */
+
+@media all and (min-width: 992px) {
+    
+.container
+{
+
+    padding-right: 60px;
+    padding-left: 45px;
+}
+    
+}
+
+/*----------------------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px) {
+
+.container
+{
+
+    padding-right: 80px;
+    padding-left: 65px;
+}
+    
+}
+

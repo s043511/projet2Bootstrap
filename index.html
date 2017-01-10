@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta NAME="keywords" CONTENT="CAEN,activités culturelles et sportives" />    
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>  
+  
+  <link rel="icon" type="image/png" href="images/favicon.ico" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/style.css" />    
+  <link rel="stylesheet" href="css/styleindex.css" />  
+  
+</head>
+
+<body id="accueil" data-spy="scroll" data-target=".navbar">
+
+<!--
+    
+    BARRE DE NAVIGATION
+
+-->
+
+<div  class="container">
+  <nav  class="navbar navbar-inverse  navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">Ville de Caen</a>
+      </div>
+      <div class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#accueil"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+          <li><a href="#actu">Actualités</a></li>
+          <li><a href="#nouvelles">Plus d’infos</a></li>
+          <li><a href="#activites">Activités du mois</a></li>
+          <li><a href="#contact">Contact</a></li>          
+        </ul>      
+        <form class="navbar-form navbar-right inline-form">
+            <div class="form-group">
+              <input type="search" class="input-sm form-control" placeholder="Recherche">
+              <button type="submit" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--
+    
+    BIENVENUE
+
+-->
+   
+    <header>
+       
+        <h1 class="titre">Bienvenue à Caen</h1>
+        
+        <p>Nous sommes le <span id="dtjour"></span></p>
+        
+        <h2>La ville de Caen vous invite à découvrir les<a class="liens" href=actualites.html> Actualités </a>autour de la Culture et du Sport. Si vous souhaitez <a class="liens" href=plusdinfos.html>Plus d' Infos</a> ou les <a class="liens" href=activitedumois.html>Activités du mois</a> n'hésitez pas à visiter ce site. Vous pouvez aussi  <a  class="liens" href=contact.html> nous Contacter</a>.
+        </h2>
+        
+    </header>
+
+<!--
+    
+    ACTUALITES
+-->
+       
+    <section id="actu">
+       
+        <div class="row" >
+            <div class="col-lg-8 col-sm-12"><h3>Dernière Actualité</h3></div>
+            <div class="col-lg-4  col-sm-12"><h3><a class="liens " href=actualites.html> Actualités</a></h3></div>
+        </div>
+        
+        <div class="row" >        
+            <div class="col-lg-6  col-sm-12"><h4>La Bibliothèque Alexis-de-Tocqueville</h4>
+            <article>
+            Cet équipement, dessiné par Rem Koolhaas (Lion d'Or 2010 de la biennale d'architecture de Venise), 
+            sera un nouveau repère architectural fort pour ancrer Caen dans le 21e siècle et développer le livre et la lecture sous toutes ses formes.
+            Situé face au bassin Saint-Pierre à Caen, ouvert à l’ouest à l’est, très lumineux grâce à sa faille horizontale totalement 
+            transparente et libre de toute structure, le bâtiment est pensé comme un forum urbain. 
+            En forme de croix de Saint-André, il regroupera 4 pôles : les arts à l’est, les sciences humaines au sud, 
+            la littérature à l’ouest et les sciences et techniques au nord. Il offrira également de nouveaux services : 
+            auditorium, espaces d’exposition, café-restaurant…
+            Ce projet est réalisé par l'agglomération Caen la mer.
+            </article>
+            </div>
+            <div class="col-lg-6  col-sm-12"><img src="images/biblio.jpg" alt="Bibliothèque Alexis de Tocqueville" /></div>        
+        </div>
+        
+    </section>
+
+<!--
+    
+    PLUS D'INFOS
+
+  -->
+   
+    <section id="nouvelles">
+       
+        <div class="row" >
+            <div class="col-sm-8"><h3>Théâtre, Musées, Sport</h3></div>
+            <div class="col-sm-4"><h3><a class="liens " href=plusdinfos.html> Toutes les Infos</a></h3></div>
+        </div>
+        
+       <!-- Caroussel
+        ================================================== -->
+        <div class="c-wrapper">
+           
+            <div id="monCarousel" class="carousel slide" data-ride="carousel">
+          
+              <!-- Indicateurs -->
+              <ol class="carousel-indicators">
+                <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#monCarousel" data-slide-to="1"></li>
+                <li data-target="#monCarousel" data-slide-to="2"></li>
+                <li data-target="#monCarousel" data-slide-to="3"></li>
+              </ol>
+              
+              <!-- Diapositives -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/theatre.jpg" alt="Le théâtre de Caen">
+                  <div class="carousel-caption">
+                    <h3>Le théâtre de Caen</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/beauxart.jpg" alt="Musée des beaux arts">
+                  <div class="carousel-caption">
+                    <h3>Musée des beaux arts</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/memorial.jpg" alt="Le Mémorial">
+                  <div class="carousel-caption">
+                    <h3>Le Mémorial</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/stade.jpg" alt="Le Stade Michel d'Ornano">
+                  <div class="carousel-caption">
+                    <h3>Le Stade Michel d'Ornano</h3>
+                  </div>
+                </div>
+              </div>
+              
+               <!-- Contrôles -->
+              <a class="left carousel-control" href="#monCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#monCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>  
+              
+            </div>
+            
+        </div>
+        
+    </section>
+    
+<!--
+    
+    ACTIVITES DU MOIS
+    
+-->
+    
+    <section id="activites">
+        <div class="row" >
+            <div class="col-sm-8"><h3>Résultats sportifs</h3></div>
+            <div class="col-sm-4"><h3><a class="liens " href=activitedumois.html> Activités du mois</a></h3></div>
+        </div> 
+
+        <table class="table table-bordered table-striped table-condensed">
+
+            <thead>
+                <tr>
+                  <th>Sport</th>
+                  <th>Résultat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="warning">
+                    <td>Football</td>
+                    <td>MONACO 2 - CAEN 1 : Défait au stade Louis-II, le Stade Malherbe de Caen va passer la trêve dans la peau du dix-neuvième de Ligue 1. 
+                    Une place qui aurait pu mériter beaucoup mieux, si les Normands avaient su concrétiser leur séduisante première période 
+                    et n’avaient pas pâti d’un pénalty généreusement accordé aux Monégasques à la reprise de la seconde période.</td>
+                </tr>
+                <tr class="warning">
+                    <td>Basket</td>
+                    <td>CAEN BASKET CALVADOS 82 – 71 VITRÉ AURORE, 16ème journée N1 Masculine. Beaucoup appréhendaient ce match face à Vitré, équipe ayant les armes pour embêter un CBC qui devait relever la tête après un nouveau faux pas à l'extérieur. Dans un match serré, les Caennais ont réussi à très bien terminer la partie pour partir en vacances sur une victoire très satisfaisante. Un match qui s'est terminé de façon rocambolesque avec deux expulsions pour Vitré.</td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+
+    </section>  
+
+<!--
+    
+    CONTACT
+    
+-->
+    
+    <section id="contact">
+        <div class="row" >
+            <div class="col-lg-8 col-sm-12"><h3><span class="glyphicon glyphicon-envelope"></span> Pour nous contacter</h3></div>
+            <div class="col-lg-4 col-sm-12"><h3><a class="liens " href=contact.html>Formulaire de Contact</a></h3>
+            </div>
+        </div> 
+        <div class="row" >
+            <div class="col-lg-6 col-sm-12">
+                <h4>Hotel de ville</h4>
+                <h4>Esplanade Jean-Marie Louvel</h4>
+                <h4>14000 Caen</h4>     
+                <h4><span class="glyphicon glyphicon-phone-alt"></span> 02.31.85.85.85</h4>    
+            </div>           
+
+            <div class="col-lg-6 col-sm-12">
+            <figure>
+                <img src="images/hoteldeville.jpg" alt="Hotel de ville">
+                <figcaption>Hotel de ville</figcaption>
+            </figure>
+            </div>
+
+     
+        </div>
+    </section>     
+                  
+</div>
+
+<!--
+    
+    PIED DE PAGE
+
+-->
+
+<footer>
+        Copyright Ville de Caen - Tous droits réservés
+</footer>
+
+<!--
+    
+   JQUERY+BOOTSTRAP dans cet ordre
+
+-->
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<script>
+//       Scrollspy fluide     
+  $(function () {
+    $('li>a').on('click', function(e) {
+      e.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 1000, function(){
+        window.location.hash = hash;
+      });
+    });
+  });
+
+//  date du jour au format francais 'Jour JJ mois AAAA'     
+    function dateFr() {
+     // les noms de jours / mois
+     var jours = new Array("dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi");
+     var mois = new Array("janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre");
+     // on recupere la date
+     var date = new Date();
+     // on construit le message
+     var message = jours[date.getDay()] + " ";   // nom du jour
+     message += date.getDate() + " ";   // numero du jour
+     message += mois[date.getMonth()] + " ";   // mois
+     message += date.getFullYear();
+     return message;
+    } 
+    document.getElementById("dtjour").innerHTML = dateFr(); 
+    
+</script>
+
+</body>
+
+
+</html>

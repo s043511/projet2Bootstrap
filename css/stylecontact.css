@@ -1,0 +1,39 @@
+
+
+.well
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 100px; 
+    border-color: orange;
+}
+
+.titre
+{
+    color: orange;
+    border-bottom-color: orange;
+}
+/*---------------------- media queries----------------------------------- */
+
+@media all and (min-width: 992px) {
+
+
+    
+}
+
+/*----------------------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px) {
+  
+.well
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 350px;
+    margin-bottom: 100px; 
+    border-color: orange;
+}
+    
+}

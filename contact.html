@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+ 
+    <meta charset="utf-8">
+    <meta NAME="keywords" CONTENT="CAEN,activités culturelles et sportives" />      
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'> 
+
+    <link rel="icon" type="image/png" href="images/favicon.ico" /> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css" />    
+    <link rel="stylesheet" href="css/stylecontact.css" />  
+  
+</head>
+
+<body id="accueil" data-spy="scroll" data-target=".navbar">
+
+<!--
+    
+    BARRE DE NAVIGATION
+
+-->
+
+    <div  class="container">
+        <nav  class="navbar navbar-inverse  navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Ville de Caen</a>
+                </div>
+                <div class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Accueil</a></li>
+                      <li><a href="actualites.html">Actualités</a></li>
+                      <li><a href="plusdinfos.html">Plus d’infos</a></li>
+                      <li><a href="activitedumois.html">Activités du mois</a></li>
+                      <li class="active"><a href="#">Contact</a></li>          
+                    </ul>      
+                    <form class="navbar-form navbar-right inline-form">
+                        <div class="form-group">
+                          <input type="search" class="input-sm form-control" placeholder="Recherche">
+                          <button type="submit" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    <!--
+
+        FORMULAIRE DE CONTACT
+
+    -->
+
+        <form class="well" >
+
+          <legend class="titre">Pour envoyer un message</legend>
+
+          <fieldset>
+
+            <div class="form-group">
+              <label for="texte">Objet du message:</label>
+              <input id="objet" type="text" class="form-control" autofocus/>
+            </div>
+
+
+            <div class="form-group">
+              <label for="texte" >Nom:</label>
+              <input id="nom" type="text" class="form-control">
+            </div>      
+
+            <div class="form-group">     
+              <label for="texte">Date de naissance:</label>
+              <input id="dateNaissance" type="date" class="form-control" />
+               <p class="help-block">Format attendu jj/mm/aaaa</p>
+            </div>
+
+            <div class="form-group">     
+              <label for="texte">Email:</label>
+              <input id="email" type="email" class="form-control"/>
+            </div>
+
+            <div class="form-group">   
+            <input id="resident"  type ="checkbox" /><strong> Résident dans la ville</strong>
+            </div>                           
+
+
+            <div class="form-group">
+            <label for="select" class="control-label">Nationalité: </label>
+                <select id="select" class="form-control" >
+                  <option>Française</option>
+                  <option>Union européenne</option>
+                  <option>Hors Union européenne</option>
+                </select>
+            </div>
+
+
+            <label for="textarea">Votre message :</label>
+              <textarea id="textarea" class="form-control" rows="4"></textarea>
+              <p class="help-block">Vous pouvez agrandir la fenêtre</p>
+            <button class="btn btn-warning" type="submit">Envoyer</button>
+          </fieldset>
+        </form>
+
+    </div>
+
+<!--
+    
+    PIED DE PAGE
+
+-->
+
+    <footer>
+            Copyright Ville de Caen - Tous droits réservés
+    </footer>
+
+<!--
+    
+   JQUERY+BOOTSTRAP dans cet ordre
+
+-->
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+
+</html>

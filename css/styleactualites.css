@@ -1,0 +1,48 @@
+
+h1
+{
+    font-size: 3.5em;
+}
+
+h2
+{
+    margin-top: 30px;
+    padding-bottom:20px;    
+}
+
+.liens
+{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.liens:hover , .liens:visited
+{
+    color:red;
+}
+.post
+{
+    padding-top:10px; 
+    padding-bottom:20px; 
+}
+
+
+.glyphicon-calendar
+{
+    padding-right: 5px;
+}
+.glyphicon-comment
+{
+    padding-left: 20px;
+    padding-right: 15px; 
+    color: red;
+}
+
+.imgresized
+{
+
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+

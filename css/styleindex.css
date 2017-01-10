@@ -1,0 +1,110 @@
+
+/*------------------------------ page index -------------------------*/
+.titre
+{
+    
+    font-size: 2em;
+    padding-bottom: 30px;
+    margin-top: 70px;
+}
+
+
+
+#actu , #nouvelles ,#activites
+{
+    padding-top: 25px;
+    color:orange;
+
+}
+
+#contact
+{
+    padding-top: 25px;
+    padding-bottom: 100px;
+    color:orange;
+}
+
+
+.liens
+{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.liens:hover
+{
+    color: red;
+}
+
+.liens:visited
+{
+    color: red;
+}
+
+
+div.c-wrapper
+{
+    width: 65%; 
+    margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img
+{
+width: 100%;  use this, or not 
+margin: auto;
+}
+
+
+
+
+/*---------------------- media queries----------------------------------- */
+
+@media all and (min-width: 992px) {
+    
+.titre
+{
+    font-size: 3em;
+    padding-bottom: 40px;
+  
+}
+    
+h3
+{
+    font-size: 1.8em;
+}
+    
+}
+
+/*----------------------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px) {
+
+    
+.titre
+{
+    font-size: 4em;
+    padding-bottom: 60px;
+}
+    
+h3
+{
+    font-size: 2em;
+}
+    
+#actu , #nouvelles ,#activites
+{
+    padding-top: 65px;
+
+}
+
+#contact
+{
+    padding-top: 65px;
+    padding-bottom: 200px;
+}
+    
+    
+}

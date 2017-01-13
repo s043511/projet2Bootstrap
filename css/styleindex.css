@@ -1,27 +1,16 @@
 
 /*------------------------------ page index -------------------------*/
-.titre
+
+body 
 {
-    
-    font-size: 2em;
-    padding-bottom: 30px;
-    margin-top: 70px;
+
+    padding-top: 60px;
 }
 
 
-
-#actu , #nouvelles ,#activites
+#actu 
 {
     padding-top: 25px;
-    color:orange;
-
-}
-
-#contact
-{
-    padding-top: 25px;
-    padding-bottom: 100px;
-    color:orange;
 }
 
 
@@ -29,6 +18,11 @@
 {
     color: red;
     font-style: italic;
+    font-weight: bold;
+}
+
+h3
+{
     font-weight: bold;
 }
 
@@ -45,7 +39,7 @@
 
 div.c-wrapper
 {
-    width: 65%; 
+    width: 100%; 
     margin: auto;
 }
 
@@ -56,24 +50,18 @@ width: 100%;  use this, or not
 margin: auto;
 }
 
-
+.backGround
+{
+    background: #FAFAF0;
+}
 
 
 /*---------------------- media queries----------------------------------- */
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
     
-.titre
-{
-    font-size: 3em;
-    padding-bottom: 40px;
-  
-}
+
     
-h3
-{
-    font-size: 1.8em;
-}
     
 }
 
@@ -82,29 +70,10 @@ h3
 
 @media all and (min-width: 1200px) {
 
-    
-.titre
-{
-    font-size: 4em;
-    padding-bottom: 60px;
-}
-    
-h3
-{
-    font-size: 2em;
-}
-    
-#actu , #nouvelles ,#activites
-{
-    padding-top: 65px;
 
-}
 
-#contact
-{
-    padding-top: 65px;
-    padding-bottom: 200px;
-}
     
+
+
     
 }

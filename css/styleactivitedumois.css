@@ -1,5 +1,80 @@
-.panel-title 
+
+
+
+.thead
 {
-    color: orange;
+    display:none;
+    
+}
+.panelTitle
+{
+
     font-weight: bold;
 }
+
+
+th,tr,td, .panelTitle {
+    display:block;
+    text-align: center;
+    }
+
+.titre {
+    display:none;
+}
+
+
+/*---------------------- media queries----------------------------------- */
+
+@media all and (min-width: 768px) {
+    
+
+
+
+
+    
+.thead
+    {
+    display:table-header-group;
+    
+    }
+
+th,td
+    {
+    display: table-cell;
+    }
+
+tr  {
+    display:table-row;
+    }    
+}
+
+/*----------------------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px) {
+
+
+.titre {
+    display:block;
+}
+    
+.thead
+    {
+    display:table-header-group;
+    
+    }
+    
+
+    
+th,td
+    {
+    display: table-cell;
+    }
+    
+tr  {
+    display:table-row;
+    }    
+    
+}
+
+

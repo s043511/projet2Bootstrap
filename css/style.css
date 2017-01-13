@@ -4,14 +4,10 @@ body
 {
     font-family: 'Bitter', serif;
     background-color: whitesmoke;
-    color: orange;
-    padding-top: 90px;
+    color: #8C8268;
+    padding-top: 70px;
 }
 
-header
-{
-    padding-right: 65px;
-}
 
 footer
 {
@@ -21,11 +17,14 @@ footer
     margin-top: 30px;        
 }
 
-.container
+.titre  {    
+    font-size: 20px;
+     color:darkorange;
+}
+
+.titreColor
 {
-    background-color: white ;
-    padding-right: 30px;
-    padding-left: 35px;
+    color:darkorange;
 }
 
 h2
@@ -38,7 +37,9 @@ h3
     font-size: 1.3em;
 }
 
-
+img{
+    width: 100%;
+}
 .navbar {
     min-height : 60px ;
     font-size:1.2em;
@@ -54,13 +55,10 @@ h3
 
 /*---------------------- media queries----------------------------------- */
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
     
-.container
-{
-
-    padding-right: 60px;
-    padding-left: 45px;
+.titre  {
+    font-size: 28px;
 }
     
 }
@@ -70,11 +68,8 @@ h3
 
 @media all and (min-width: 1200px) {
 
-.container
-{
-
-    padding-right: 80px;
-    padding-left: 65px;
+.titre  {
+    font-size: 36px;
 }
     
 }

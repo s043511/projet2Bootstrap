@@ -41,16 +41,30 @@ img{
     width: 100%;
 }
 .navbar {
-    min-height : 60px ;
-    font-size:1.2em;
+
+    font-size:1em;    
+
+}
+
+/* Réduit la Largeur de la zone de recherche*/
+.input-sm.form-control
+{
+    width : 87px ;
+}
+
+/* Réduction du padding de 15 à 10 entre les Choix du Menu de Navigation */
+/* Cela évite 3 lignes quand on réduit la fenêtre */
+.nav>li>a
+{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .navbar-inverse .navbar-brand {
-    background-color:  orange;
-    font-size:1.5em;    
-    min-height : 60px ;
-    color: white;
+
+    color: orange;
+    font-weight: bold;
 } 
 
 /*---------------------- media queries----------------------------------- */
@@ -60,6 +74,7 @@ img{
 .titre  {
     font-size: 28px;
 }
+  
     
 }
 

@@ -1,36 +1,24 @@
 # projet2Bootstrap
 Version Initiale - Projet OpenClassRooms 2 - BOOTSTAP - Faites la promotion des activités de votre ville
 
+Version 27/01/2017
+-------------------
 
-Version 8/1/2017
-----------------
-
-MAJ suite remarques Aurelien le 04/01/2016
-
-
-Sur la page principale
-
-- Menu: les liens du menu redirigent vers les autres pages 
-- Mettre le carroussel sur la partie superieure de la page et toute sa largeur
-- Sur la partie inferieure
-	- à droite : mettre le début de la dernière actualié avec l'image
-	- à gauche : mettre le message de bienvenue
-- Taille de "Bienvenue à CAEN" trop grand
-- Couleur police du texte en gris, laisser les titres en orange
-
-Page Activité du mois
-
-- tableau pas responsive
-- les boutons en TD au lieu de TR
-
-Page Actualité et Index
-- Taille des images 100%
-
-Remarques générales
-- Police paragraphe en gris au lieu de orange
+Pour toutes les pages HTML
+  Intégration du choix Recherche dans la liste du Menu de navigation
+  Suppression de la classe  glyphicon-eye-open
+  Ville de Cane ==> Remplacé par CAEN
+  
+style.css
+  Police navbar 1 au lieu de 1.2px  
+  Diminution de la largeur du champ de recherche
+  Diminution du padding entre les choix du Menu de Navigation 
+  
+styleindex.css
+  Diminution du padding-top pour que l'image colle au Menu (60==>50px)  
 
 Version 20/01/2017
------------------------------
+-------------------
 
 Pour toutes les pages HTML
   Ajout de la balise TITLE dans le HEAD :  <title>Activités de la ville de CAEN</title>
@@ -62,3 +50,31 @@ HTML
 
 Reste à faire 
   Barre de navigation : intégration du bouton de recherche dans la liste des choix à l'intérieur d'un <li></li> en plus
+
+Version 8/1/2017
+----------------
+
+MAJ suite remarques Aurelien le 04/01/2016
+
+
+Sur la page principale
+
+- Menu: les liens du menu redirigent vers les autres pages 
+- Mettre le carroussel sur la partie superieure de la page et toute sa largeur
+- Sur la partie inferieure
+	- à droite : mettre le début de la dernière actualié avec l'image
+	- à gauche : mettre le message de bienvenue
+- Taille de "Bienvenue à CAEN" trop grand
+- Couleur police du texte en gris, laisser les titres en orange
+
+Page Activité du mois
+
+- tableau pas responsive
+- les boutons en TD au lieu de TR
+
+Page Actualité et Index
+- Taille des images 100%
+
+Remarques générales
+- Police paragraphe en gris au lieu de orange
+

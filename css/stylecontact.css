@@ -14,11 +14,22 @@
     color: orange;
     border-bottom-color: orange;
 }
+
+/*
+.toRemove
+    {
+        display:none;
+    }
+*/
+
 /*---------------------- media queries----------------------------------- */
 
 @media all and (min-width: 992px) {
 
-
+/*.toRemove
+    {
+        display:none;
+    }*/
     
 }
 
@@ -35,5 +46,9 @@
     margin-bottom: 100px; 
     border-color: orange;
 }
+/*    .toRemove
+    {
+        display:block;
+    }*/
     
 }

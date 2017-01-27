@@ -7,6 +7,41 @@ h1
 .prg
 {
     margin-top: 30px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;  
+
+    display:block;
+
 }
+
+.largeurParapgraphe
+{
+    text-align: justify;
+}
+/*---------------------- media queries----------------------------------- */
+
+@media all and (min-width: 768px) {
+    
+
+.prg
+{
+
+    display:flex;
+    align-items:center;
+
+}    
+    
+}
+
+/*----------------------------------------------------------------------- */
+
+
+@media all and (min-width: 1200px) {
+
+.prg
+{
+
+    display:flex;
+    align-items:center;
+
+}   
 

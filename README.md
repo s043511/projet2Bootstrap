@@ -1,13 +1,23 @@
 # projet2Bootstrap
 Version Initiale - Projet OpenClassRooms 2 - BOOTSTAP - Faites la promotion des activités de votre ville
 
+Version 29/01/2017
+-------------------
+
+Toutes mes pages HTML
+  CAEN ==> Remplacé par Ville de Caen
+
+style.css
+  Police navbar 1.2 pour grand écran 1 sinon
+  Centrage de Ville de Caen en petit écran
+
 Version 27/01/2017
 -------------------
 
 Pour toutes les pages HTML
   Intégration du choix Recherche dans la liste du Menu de navigation
   Suppression de la classe  glyphicon-eye-open
-  Ville de Cane ==> Remplacé par CAEN
+  Ville de Caen ==> Remplacé par CAEN
   
 style.css
   Police navbar 1 au lieu de 1.2px  

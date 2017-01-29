@@ -18,7 +18,7 @@ footer
 }
 
 .titre  {    
-    font-size: 20px;
+    font-size: 1.4em;
      color:darkorange;
 }
 
@@ -29,12 +29,12 @@ footer
 
 h2
 {
-    font-size: 1.4em; 
+    font-size: 1.2em; 
 }
 
 h3
 {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 img{
@@ -56,8 +56,9 @@ img{
 /* Cela évite 3 lignes quand on réduit la fenêtre */
 .nav>li>a
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:1em;
 }
 
 
@@ -67,14 +68,45 @@ img{
     font-weight: bold;
 } 
 
+/* Centre Caen*/
+ .navbar-brand {
+     width : 78%;  
+     text-align: center;
+     font-size:1.2em;        
+} 
+
+.largeurParagraphe
+{
+    text-align: justify;
+}
+
 /*---------------------- media queries----------------------------------- */
 
 @media all and (min-width: 768px) {
     
 .titre  {
-    font-size: 28px;
+    font-size: 1.6em;
 }
-  
+
+.nav>li>a
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:1em;
+}    
+
+/* Ville de  Caen */
+ .navbar-brand {
+     width : inherit;  
+     text-align: inherit;
+     font-size:1em;     
+} 
+
+/* évite la bar de navigation sur 2 lignes */
+.navbar-form.navbar-right.inline-form {
+    padding-right: 0px;
+    padding-left: 1px;
+}       
     
 }
 
@@ -84,8 +116,28 @@ img{
 @media all and (min-width: 1200px) {
 
 .titre  {
-    font-size: 36px;
+    font-size: 1.8em;
 }
+
+.nav>li>a
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:1.2em;
+}     
+    
+/* Réduit la Largeur de la zone de recherche*/
+.input-sm.form-control
+{
+    width : 120px ;
+}    
+
+/* Ville de  Caen */
+ .navbar-brand {
+      width : inherit;  
+     text-align: inherit;
+     font-size:1.4em;      
+} 
     
 }
 

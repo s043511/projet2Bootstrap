@@ -13,10 +13,7 @@ h1
 
 }
 
-.largeurParapgraphe
-{
-    text-align: justify;
-}
+
 /*---------------------- media queries----------------------------------- */
 
 @media all and (min-width: 768px) {

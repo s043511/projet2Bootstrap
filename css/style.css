@@ -17,15 +17,6 @@ footer
     margin-top: 30px;        
 }
 
-.titre  {    
-    font-size: 1.4em;
-     color:darkorange;
-}
-
-.titreColor
-{
-    color:darkorange;
-}
 
 h2
 {
@@ -46,24 +37,7 @@ img{
 
 }
 
-/* Réduit la Largeur de la zone de recherche*/
-.input-sm.form-control
-{
-    width : 87px ;
-}
-
-/* Réduction du padding de 15 à 10 entre les Choix du Menu de Navigation */
-/* Cela évite 3 lignes quand on réduit la fenêtre */
-.nav>li>a
-{
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size:1em;
-}
-
-
 .navbar-inverse .navbar-brand {
-
     color: orange;
     font-weight: bold;
 } 
@@ -75,25 +49,41 @@ img{
      font-size:1.2em;        
 } 
 
+/* Réduction du padding de 15 à 10 entre les Choix du Menu de Navigation */
+/* Cela évite 3 lignes quand on réduit la fenêtre */
+.nav>li>a
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:1em;
+}
+
+/* Réduit la Largeur de la zone de recherche*/
+.input-sm.form-control
+{
+    width : 87px ;
+}
+
+
 .largeurParagraphe
 {
     text-align: justify;
+}
+
+.titre  {    
+    font-size: 1.4em;
+     color:darkorange;
+}
+
+.titreColor
+{
+    color:darkorange;
 }
 
 /*---------------------- media queries----------------------------------- */
 
 @media all and (min-width: 768px) {
     
-.titre  {
-    font-size: 1.6em;
-}
-
-.nav>li>a
-{
-    padding-left: 8px;
-    padding-right: 8px;
-    font-size:1em;
-}    
 
 /* Ville de  Caen */
  .navbar-brand {
@@ -102,11 +92,23 @@ img{
      font-size:1em;     
 } 
 
-/* évite la bar de navigation sur 2 lignes */
+.nav>li>a
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size:1em;
+}    
+
+
+/* adaptation qui permet d'éviter une barre de navigation sur 2 lignes */
 .navbar-form.navbar-right.inline-form {
     padding-right: 0px;
     padding-left: 1px;
 }       
+
+.titre  {
+    font-size: 1.6em;
+}
     
 }
 
@@ -115,10 +117,15 @@ img{
 
 @media all and (min-width: 1200px) {
 
-.titre  {
-    font-size: 1.8em;
-}
 
+
+/* Ville de  Caen */
+ .navbar-brand {
+     width : inherit;  
+     text-align: inherit;
+     font-size:1.4em;      
+} 
+    
 .nav>li>a
 {
     padding-left: 10px;
@@ -132,12 +139,9 @@ img{
     width : 120px ;
 }    
 
-/* Ville de  Caen */
- .navbar-brand {
-      width : inherit;  
-     text-align: inherit;
-     font-size:1.4em;      
-} 
+.titre  {
+    font-size: 1.8em;
+}
     
 }
 
